@@ -67,6 +67,7 @@ h1,h2,h3{
 }
 h1{
   font-size: calc(36 / 16 * 1rem);
+  font-weight: normal;
   line-height: 1.2;
 }
 #root, #__next {

@@ -1,10 +1,11 @@
 <script>
     import imgHome from '../assets/musculacao.jpg'
+    import icon from '../assets/icon-muscle.png'
 </script>
 
 <section class="intro" style="background-image: url({imgHome})">
     <div class="intro__wrapper wrap">
-        <h1>Você está pronto <br>para o desafio? 💪    </h1>
+        <h1>Você está pronto <br>para o desafio?<img src="{icon}" alt=""></h1>
         <p>A Academia Local está pronta para te ajudar a chegar mais longe e alcançar sua melhor performance.</p>
         <a class="btn" href="/sobre">Sobre</a>
     </div>
@@ -36,5 +37,16 @@
     .btn{
         margin-top: 24px;
     }
+
+    p{
+  font-size: calc(18 / 16* 1rem);
+  margin-top: 16px;
+    }
+
+    img{
+        display: inline;
+        max-width: 36px;
+    }
+
 
 </style>

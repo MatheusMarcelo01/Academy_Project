@@ -27,6 +27,8 @@ body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   font-family: 'Cabin Variable', sans-serif;
+  background-color: var(--bg) ;
+  color: var(--white)
 
 }
 /*
@@ -55,6 +57,15 @@ p, h1, h2, h3, h4, h5, h6 {
 h1,h2,h3{
   font-family: 'Roboto Condensed', sans-serif;
 }
+h1{
+  font-size: calc(36 / 16 * 1rem);
+}
 #root, #__next {
   isolation: isolate;
+}
+
+/*classes*/
+.wrap {
+  margin: 0 auto;
+  padding: 0 40px;
 }

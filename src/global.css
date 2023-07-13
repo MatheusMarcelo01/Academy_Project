@@ -67,7 +67,7 @@ h1,h2,h3{
 }
 h1{
   font-size: calc(36 / 16 * 1rem);
-  font-weight: normal;
+  font-weight: ;
   line-height: 1.2;
 }
 #root, #__next {
@@ -94,7 +94,4 @@ h1{
   transition: 125ms;
 }
 
-p{
-  font-size: calc(18 / 16* 1rem);
-  margin-top: 16px;
 }

@@ -3,7 +3,7 @@
     import iconMuscle from '$lib/assets/icon-muscle.png';
 
 
-    export let title;
+    export let title; 
     export let content;
     export let btn;
     export let href;

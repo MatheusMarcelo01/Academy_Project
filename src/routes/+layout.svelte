@@ -6,9 +6,19 @@
 	import Header from '$lib/Header.svelte';
     import Footer from '$lib/Footer.svelte';
 	import Credits from '$lib/Credits.svelte';
+	import { DISPLAY } from '$env/static/private';
 </script>
 
-<Header/>
-<slot/>
-<Footer/>   
-<Credits/>
+<div class="layout">
+    <Header/>
+    <main class="main">
+        <slot/>
+    </main>
+    <div class="footer__container">
+        <Footer/>   
+    </div>
+    <div class="credits__container">
+        <Credits/>
+    </div>
+<div/>
+

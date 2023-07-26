@@ -7,25 +7,20 @@
     <div class="footer__wrapper wrap">
         <div class="footer__img">
             <img src="{img}" alt="">
-
         </div>
         <div class="footer__info">
             <h2>venha fazer seu <br>primeiro treino gratis</h2>
             <p>bla bla bla bla venha ca participar</p>
-            <div class="footer_btns">
+            <div class="footer__btns">
                 <a href="http://api.whatsapp.com/send?phone=5514999032024" class="btn"> Whatsapp</a>
                 <a href="mailto:matheusmpmenezes@gmail.com" class="btn"> E-mail</a>
-
             </div>
-
         </div>
 
+        
     </div>
-    <div class="credits">
-        <div class="credits__wrapper wrap">
-            <span>@Academia Local, 2023 </span>
-        </div>
-    </div>
+
+    
 </footer>
 
 <style>
@@ -41,7 +36,7 @@
     .footer__img{
         position: relative;
     }
-    .footer__img:after{
+    .footer__img::after{
         content: '';
         position: absolute;
         inset: 0;
@@ -57,26 +52,13 @@
     h2{
         font-size: calc(36/16 * 1rem);
     }
-    .footer__btns {
+    .footer__btns{
         margin-top: 24px;
         display: flex;
         gap: 8px;
     }
-    .credits{
-        margin-top: 60px;
-    }
-    .credits__wrapper::before{
-        content: '';
-        display: block;
-        width: 100%;
-        height: 1px;
-        background-color: var(--subtle) ;
-    }
-    span{
-        display: inline-block;
-        font-size: calc(14/116 * 1rem);
-        padding-top: 24px;
-        padding-bottom: 24px;
 
-    }
+    
+    
+
 </style>

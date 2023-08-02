@@ -2,11 +2,11 @@
     import '../global.css'
     import  '@fontsource/roboto-condensed';
     import  '@fontsource/roboto-condensed/700.css';
-    import '@fontsource/cabin';
+    //import '@fontsource/cabin'; antigo antes de importar direto da documentação
+    import '@fontsource-variable/cabin';
 	import Header from '$lib/Header.svelte';
     import Footer from '$lib/Footer.svelte';
 	import Credits from '$lib/Credits.svelte';
-	import { DISPLAY } from '$env/static/private';
 </script>
 
 <div class="layout">
@@ -20,5 +20,18 @@
     <div class="credits__container">
         <Credits/>
     </div>
-<div/>
+</div>
 
+<style>
+    .layout{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+    .footer__container{
+        margin-bottom: auto;
+    }
+    .credits__container{
+        margin-bottom: -70px;
+    }
+</style>
